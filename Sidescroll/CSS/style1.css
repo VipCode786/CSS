@@ -1,0 +1,21 @@
+.ourClients {
+  width: 100%;
+  overflow-x: scroll;
+  background-color: black;
+}
+.ourClients .our-client2 {
+  margin-left: 3.2rem;
+  margin-top: -2.5rem;
+}
+.ourClients .our-client3 {
+  margin-top: -2.5rem;
+}
+.ourClients .our-client4 {
+  margin-left: 3.2rem;
+  margin-top: -2.5rem;
+}
+
+.ourClients img {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=style1.css.map */

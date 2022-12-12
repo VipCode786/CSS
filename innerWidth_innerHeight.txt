@@ -1,0 +1,18 @@
+// get the innerWidth and innerHeight of the screen in react
+
+const [windowSize, setWindowSize] = useState(getWindowSize());
+  function getWindowSize() {
+    const {innerWidth, innerHeight} = window;
+    console.log(innerWidth);
+    return {innerWidth, innerHeight};
+    
+  }
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize(getWindowSize());
+    }
+
+    window.addEventListener('resize', handleWindowResize);
+
+  
+  }, []);
